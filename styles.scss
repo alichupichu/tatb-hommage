@@ -1,21 +1,109 @@
 * {
-  margin: 0px;
-  padding: 0px;
-  color: #36bac7;
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-style: normal;
+  src: url("./fonts/montserrat_n4.1d581f6d4bf1a97f4cbc0b88b933bc136d38d178.woff2")
+      format("woff2"),
+    url("./fonts/montserrat_n4.cfce41a967758ce5a9b7d48daeb5b028fd977a9b.woff")
+      format("woff");
+}
+
+@font-face {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-style: normal;
+  src: url("./fonts/montserrat_n4.1d581f6d4bf1a97f4cbc0b88b933bc136d38d178.woff2")
+      format("woff2"),
+    url("./fonts/montserrat_n4.cfce41a967758ce5a9b7d48daeb5b028fd977a9b.woff")
+      format("woff");
+}
+
+@font-face {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-style: normal;
+  src: url("./fonts/montserrat_n7.c496e9cf2031deec4c4bca338faa81971c8631d4.woff2")
+      format("woff2"),
+    url("./fonts/montserrat_n7.78b0223375c94b39ce1af7e09a0225f2bb3d05f7.woff")
+      format("woff");
+}
+
+@font-face {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-style: italic;
+  src: url("./fonts/montserrat_i4.ae02483b3d5e8777d0d4a4ccf396482c364d8955.woff2")
+      format("woff2"),
+    url("./fonts/montserrat_i4.ba28d1a04ec09448de486d83c63235903dfc0af8.woff")
+      format("woff");
+}
+
+@font-face {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-style: italic;
+  src: url("./fonts/montserrat_i7.83866c3eec90071fa974c17980ffb42977f9e667.woff2")
+      format("woff2"),
+    url("./fonts/montserrat_i7.25524241b12d864609c85325613d60efcf1a87e3.woff")
+      format("woff");
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Montserrat", "Lucida Sans", "Lucida Sans Regular",
+    "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: 400;
 }
 
 $colorBodyText: #34312e;
 $colorBtnPrimary: #fae787;
 $colorBtnPrimaryText: #279fad;
+$colorBody: #ffffff;
 $colorSecondary: #b9dfe0;
 $colorTerciary: #f2adbf;
 $colorBtnActive: #fefbe9;
+$paddingBasic: 20px;
 
 body {
-  background-color: #ffffff;
-  color: $colorBodyText;
+  background-color: var($colorBody);
+  color: var($colorBodyText);
+  font-size: 1.8rem;
 }
 div {
-  color: $colorBodyText;
-  background-color: $colorBtnPrimary;
+  color: var($colorBodyText);
+  background-color: #ffffff;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  padding-top: var($paddingBasic);
+  padding-bottom: var($paddingBasic);
+}
+
+button {
+  box-shadow: 5px 5px #34312e;
+  box-shadow: 5px 5px 0 0 var($colorBodyText);
+  transition: transform 0.05s, box-shadow 0.05s;
+  margin-bottom: 5px;
+  text-align: center;
+  vertical-align: middle;
+  // box-sizing: border-box;
+  margin: 0;
+  width: auto;
+  background-color: var($colorBody);
+  padding: 11px 20px 11px 20px;
+  letter-spacing: 0.2rem;
+  min-width: 90px;
+  border: 2px solid;
+}
+
+.disclaimer {
+  font-weight: 400;
+  font-size: 1rem;
 }
