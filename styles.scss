@@ -1,0 +1,21 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  color: #36bac7;
+}
+
+$colorBodyText: #34312e;
+$colorBtnPrimary: #fae787;
+$colorBtnPrimaryText: #279fad;
+$colorSecondary: #b9dfe0;
+$colorTerciary: #f2adbf;
+$colorBtnActive: #fefbe9;
+
+body {
+  background-color: #ffffff;
+  color: $colorBodyText;
+}
+div {
+  color: $colorBodyText;
+  background-color: $colorBtnPrimary;
+}
