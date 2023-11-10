@@ -146,10 +146,16 @@
   <body>
     <header>
       <div>
-        <div class="title header">
+        <div class="title-header">
           <img
-            src="./images/Header_-_Learn_to_Sew_Yr_Own_Clothes_180x.png"
-            alt="TILLY AND THE BUTTONS"
+            class="small-header"
+            src="./images/Header_-_Learn_to_Sew_Yr_Own_Clothes_250x.png"
+            srcset="
+              images/Header_-_Learn_to_Sew_Yr_Own_Clothes_250x.png      1x,
+              images/Header_-_Learn_to_Sew_Yr_Own_Clothes_250x%402x.png 2x
+            "
+            alt="Tilly and the Buttons"
+            itemprop="logo"
           />
         </div>
         <div class="icon-header">
@@ -159,34 +165,74 @@
         </div>
         <div class="nav-header-menu">
           <ul>
-            <li><a href="sewing-patterns">SEWING PATTERNS</a></li>
-            <li><a href="online-workshop">ONLINE WORKSHOPS</a></li>
-            <li><a href="gifts">GIFTS</a></li>
-            <li><a href="resources">RESOURCES</a></li>
+            <li>
+              <a
+                href="https://shop.tillyandthebuttons.com/collections/patterns"
+                class="header-menu slide-menu"
+                >SEWING PATTERNS</a
+              >
+              <ul>
+                <li>EASY SEWING FOR BEGINNERS</li>
+                <li>ALL SEWING PATTERNS</li>
+                <li>COLLECTIONS</li>
+                <li>BOOKS</li>
+                <li>SUPPLIES</li>
+              </ul>
+            </li>
+            <li>
+              <a
+                href="https://shop.tillyandthebuttons.com/collections/workshops"
+                class="header-menu slide-menu"
+                >ONLINE WORKSHOPS</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://shop.tillyandthebuttons.com/collections/gifts"
+                class="header-menu slide-menu"
+                >GIFTS</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.tillyandthebuttons.com/"
+                class="header-menu slide-menu"
+                >RESOURCES</a
+              >
+            </li>
           </ul>
         </div>
       </div>
     </header>
     <main>
-      <div class="header-banner-carrousel">
-        <img src="" alt="" />SONNY JACKET PACKET <img src="" alt="" />SONNY
-        LINNING
+      <div class="section header-banner-carrousel">
+        <picture> </picture>
       </div>
-      <div class="three-banner-button">
+      <div class="section three-banner-button">
         <div class="image-button">
-          <img src="" alt="" />
+          <picture>
+            <source media="(min-width: )" srcset="" sizes="" />
+          </picture>
+
           <button class="button-with-shaddow">BEGINNER SEWING PATTERNS</button>
         </div>
         <div class="image-button">
-          <img src="" alt="" />
+          <picture>
+            <source media="(min-width: )" srcset="" sizes="" />
+          </picture>
+          <picture>
+            <source media="(min-width: )" srcset="" sizes="" />
+          </picture>
           <button class="button-with-shaddow">SEWING PATTERNS BUNDLES</button>
         </div>
         <div class="image-button">
-          <img src="" alt="" />
+          <picture>
+            <source media="(min-width: )" srcset="" sizes="" />
+          </picture>
           <button class="button-with-shaddow">PLUS SIZE SEWING PATTERNS</button>
         </div>
       </div>
-      <div class="workshops-banner">
+      <div class="section workshops-banner">
         <div class="text-container workshop">
           <h2>LEARN A NEW SKILL</h2>
           <h3>ONLINE WORKSHOPS</h3>
@@ -201,7 +247,7 @@
         </div>
       </div>
       <div>
-        <div class="featured-patterns">
+        <div class="section featured-patterns">
           <h3>SEWISTS ARE LOVING THESE:</h3>
           <div class="double-feature">
             <div class="sewing-pattern">
@@ -283,7 +329,7 @@
             </div>
           </div>
         </div>
-        <div class="blog-banner">
+        <div class="section blog-banner">
           <img src="" alt="" />
           <h5>BLOG POST OF THE WEEK</h5>
           <h3>SEWISTS WITH DISABILITIES</h3>
@@ -291,7 +337,7 @@
           <p class="paper-pdf">A guest post by Samantha Purple Sewing Cloud</p>
           <button class="black-button">CONTINUE READING...</button>
         </div>
-        <div class="sewing-tutorials">
+        <div class="section sewing-tutorials">
           <h3>POPULAR SEWING TUTORIALS:</h3>
           <div class="blog-feature">
             <img src="" alt="" />
@@ -306,11 +352,11 @@
             <button class="button-with-shaddow">READ THE POST</button>
           </div>
         </div>
-        <div class="video-feature">
+        <div class="section video-feature">
           <h3>VIDEO OF THE WEEK</h3>
           <video src=""></video>
         </div>
-        <div class="insta-feature">
+        <div class="section insta-feature">
           <h3>LET'S BE FRIENDS!</h3>
           <p>
             Follow @TillyButtons & share what you're making using
@@ -331,7 +377,7 @@
             </div>
           </div>
         </div>
-        <div class="newsletter-banner">
+        <div class="section newsletter-banner">
           <h4 class="blog-post">JOIN THE SEWING PARTY & GET 10% OFF!</h4>
           <p class="newsletter-description">
             Sign up to our newsletter where we share new products, sewing tips,
@@ -361,7 +407,7 @@
       </div>
     </main>
     <footer>
-      <div>
+      <div class="section">
         <div class="footer-spacing"></div>
         <div class="round-icon">
           <a href="http://instagram" target="_blank" rel="noopener noreferrer">

@@ -1,6 +1,14 @@
 * {
   margin: 0;
   padding: 0;
+  --colorBodyText: #34312e;
+  --colorBtnPrimary: #fae787;
+  --colorBtnPrimaryText: #279fad;
+  --colorBody: #ffffff;
+  --colorSecondary: #b9dfe0;
+  --colorTerciary: #f2adbf;
+  --colorBtnActive: #fefbe9;
+  --paddingBasic: 20px;
 }
 
 @font-face {
@@ -59,44 +67,42 @@ html {
     "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   font-weight: 400;
 }
-
-$colorBodyText: #34312e;
-$colorBtnPrimary: #fae787;
-$colorBtnPrimaryText: #279fad;
-$colorBody: #ffffff;
-$colorSecondary: #b9dfe0;
-$colorTerciary: #f2adbf;
-$colorBtnActive: #fefbe9;
-$paddingBasic: 20px;
-
 body {
-  background-color: var($colorBody);
+  background-color: var(--colorBody);
   color: var($colorBodyText);
   font-size: 1.8rem;
 }
-div {
-  color: var($colorBodyText);
-  background-color: #ffffff;
-}
 
-.header {
+.section {
+  padding: 60px 0px;
+  width: 100vw;
+}
+div .section {
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  padding-top: var($paddingBasic);
-  padding-bottom: var($paddingBasic);
 }
 
-button {
+div > .blog-banner,
+div > .video-feature {
+  background-color: #b9dfe0;
+}
+
+.title-header {
+  margin-top: var(--paddingBasic);
+  margin-bottom: var(--paddingBasic);
+}
+
+.button-with-shaddow {
   box-shadow: 5px 5px #34312e;
-  box-shadow: 5px 5px 0 0 var($colorBodyText);
+  box-shadow: 5px 5px 0 0 var(--colorBodyText);
   transition: transform 0.05s, box-shadow 0.05s;
   margin-bottom: 5px;
   text-align: center;
   vertical-align: middle;
-  // box-sizing: border-box;
   margin: 0;
   width: auto;
-  background-color: var($colorBody);
+  background-color: var(--colorBody);
   padding: 11px 20px 11px 20px;
   letter-spacing: 0.2rem;
   min-width: 90px;
@@ -106,4 +112,12 @@ button {
 .disclaimer {
   font-weight: 400;
   font-size: 1rem;
+}
+
+.image-button {
+  width: 100px;
+  padding-left: 20px;
+  padding-right: 20px;
+  flex-direction: column;
+  justify-content: center;
 }
