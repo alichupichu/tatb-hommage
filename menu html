@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Easy sewing patterns for beginners - Tilly and the Buttons</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link href="./styles.css" rel="stylesheet" />
+
+    <!-- Primary Meta Tags -->
+    <title>Easy sewing patterns for beginners - Tilly and the Buttons</title>
+    <meta
+      name="title"
+      content="Easy sewing patterns for beginners - Tilly and the Buttons"
+    />
+    <meta
+      name="description"
+      content="Learn to sew your own clothes with gorgeous, easy sewing patterns - great for beginners. Sewing workshops and classes available online."
+    />
+
+    <!-- Open Graph / Facebook -->
+    <meta
+      property="og:type"
+      content="https://www.facebook.com/tillyandthebuttons/"
+    />
+    <meta property="og:url" content="https://shop.tillyandthebuttons.com/" />
+    <meta
+      property="og:title"
+      content="Easy sewing patterns for beginners - Tilly and the Buttons"
+    />
+    <meta
+      property="og:description"
+      content="Learn to sew your own clothes with gorgeous, easy sewing patterns - great for beginners. Sewing workshops and classes available online."
+    />
+    <meta
+      property="og:image"
+      content="https://metatags.io/images/meta-tags.png"
+    />
+
+    <!-- Twitter -->
+    <meta name="twitter:site" content="@TillyButtons" />
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta
+      property="twitter:url"
+      content="https://shop.tillyandthebuttons.com/"
+    />
+    <meta
+      property="twitter:title"
+      content="Easy sewing patterns for beginners - Tilly and the Buttons"
+    />
+    <meta
+      property="twitter:description"
+      content="Learn to sew your own clothes with gorgeous, easy sewing patterns - great for beginners. Sewing workshops and classes available online."
+    />
+    <meta
+      property="twitter:image"
+      content="https://metatags.io/images/meta-tags.png"
+    />
+
+    <!-- Meta Tags Generated with https://metatags.io -->
+
+    <!-- FAVICONS -->
+
+    <link
+      rel="apple-touch-icon"
+      sizes="57x57"
+      href="./images/tatb-favicon.ico/apple-icon-57x57.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="60x60"
+      href="./images/tatb-favicon.ico/apple-icon-60x60.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="./images/tatb-favicon.ico/apple-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="./images/tatb-favicon.ico/apple-icon-76x76.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="./images/tatb-favicon.ico/apple-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="./images/tatb-favicon.ico/apple-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="./images/tatb-favicon.ico/apple-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="./images/tatb-favicon.ico/apple-icon-152x152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./images/tatb-favicon.ico/apple-icon-180x180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="./images/tatb-favicon.ico/android-icon-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/tatb-favicon.ico/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="96x96"
+      href="./images/tatb-favicon.ico/favicon-96x96.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./images/tatb-favicon.ico/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./images/tatb-favicon.ico/manifest.json" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta
+      name="msapplication-TileImage"
+      content="./images/tatb-favicon.ico/ms-icon-144x144.png"
+    />
+    <meta name="theme-color" content="#ffffff" />
+
+    <!-- FAVICONS -->
+  </head>
+
+
+  <div class="icon-header">
+          <span>Search</span>
+          <span>ACCOUNT</span>
+          <span>CART</span>
+        </div>
+        <div class="nav-header-menu">
+          <ul>
+            <li>
+              <a
+                href="https://shop.tillyandthebuttons.com/collections/patterns"
+                class="header-menu slide-menu"
+                >SEWING PATTERNS</a
+              >
+              <ul>
+                <li>EASY SEWING FOR BEGINNERS</li>
+                <li>ALL SEWING PATTERNS</li>
+                <li>COLLECTIONS</li>
+                <li>BOOKS</li>
+                <li>SUPPLIES</li>
+              </ul>
+            </li>
+            <li>
+              <a
+                href="https://shop.tillyandthebuttons.com/collections/workshops"
+                class="header-menu slide-menu"
+                >ONLINE WORKSHOPS</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://shop.tillyandthebuttons.com/collections/gifts"
+                class="header-menu slide-menu"
+                >GIFTS</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.tillyandthebuttons.com/"
+                class="header-menu slide-menu"
+                >RESOURCES</a
+              >
+            </li>
+          </ul>
+        </div>
