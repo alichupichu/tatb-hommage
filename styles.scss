@@ -73,20 +73,20 @@ body {
   font-size: 1.8rem;
 }
 
-.section {
+section {
   padding: 60px 0px;
   width: 100vw;
 }
-div .section {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
+// div .section {
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: center;
+// }
 
-div > .blog-banner,
-div > .video-feature {
-  background-color: #b9dfe0;
-}
+// div > .blog-banner,
+// div > .video-feature {
+//   background-color: #b9dfe0;
+// }
 
 .title-header {
   margin-top: var(--paddingBasic);
@@ -109,15 +109,34 @@ div > .video-feature {
   border: 2px solid;
 }
 
+section > .black-button {
+  margin-bottom: 5px;
+  text-align: center;
+  vertical-align: middle;
+  margin: 0;
+  width: auto;
+  background-color: var(--colorBody);
+  padding: 11px 20px 11px 20px;
+  letter-spacing: 0.2rem;
+  min-width: 90px;
+  border: 2px solid;
+}
+
 .disclaimer {
   font-weight: 400;
   font-size: 1rem;
 }
-
-.image-button {
-  width: 100px;
-  padding-left: 20px;
-  padding-right: 20px;
-  flex-direction: column;
-  justify-content: center;
+.image-product {
+  max-width: 350px;
+  max-height: 468px;
+}
+.sonny {
+  background-image: url(./images/featured-patterns/sonny/Tilly_and_Buttons_Sonny_sewing_pattern_combined_1080x.webp);
+  background-position: center;
+  background-size: cover;
+}
+.imageBtn-container {
+  background-position: center;
+  background-size: cover;
+  width: ;
 }
