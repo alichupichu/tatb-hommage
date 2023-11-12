@@ -1,14 +1,6 @@
 * {
-  margin: 0;
-  padding: 0;
-  --colorBodyText: #34312e;
-  --colorBtnPrimary: #fae787;
-  --colorBtnPrimaryText: #279fad;
-  --colorBody: #ffffff;
-  --colorSecondary: #b9dfe0;
-  --colorTerciary: #f2adbf;
-  --colorBtnActive: #fefbe9;
-  --paddingBasic: 20px;
+  margin: 0px;
+  padding: 0px;
 }
 
 @font-face {
@@ -66,50 +58,101 @@ html {
   font-family: "Montserrat", "Lucida Sans", "Lucida Sans Regular",
     "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   font-weight: 400;
+  background-color: #ffffff;
+  color: #34312e;
 }
 body {
-  background-color: var(--colorBody);
-  color: var($colorBodyText);
   font-size: 1.8rem;
 }
 
-section {
-  padding: 60px 0px;
-  width: 100vw;
-}
-// div .section {
-//   display: flex;
-//   flex-direction: column;
-//   justify-content: center;
-// }
-
-// div > .blog-banner,
-// div > .video-feature {
-//   background-color: #b9dfe0;
-// }
-
-.title-header {
-  margin-top: var(--paddingBasic);
-  margin-bottom: var(--paddingBasic);
+header {
+  .header-image {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
 }
 
-.button-with-shaddow {
-  box-shadow: 5px 5px #34312e;
-  box-shadow: 5px 5px 0 0 var(--colorBodyText);
-  transition: transform 0.05s, box-shadow 0.05s;
-  margin-bottom: 5px;
-  text-align: center;
-  vertical-align: middle;
+nav header {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  gap: 25px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #34312e;
+}
+
+.footer-menu footer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  gap: 25px;
+}
+
+ol,
+li {
+  list-style: none;
   margin: 0;
-  width: auto;
-  background-color: var(--colorBody);
-  padding: 11px 20px 11px 20px;
-  letter-spacing: 0.2rem;
-  min-width: 90px;
-  border: 2px solid;
+  padding: 0;
 }
 
-section > .black-button {
+.carousel-viewport {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  overflow-x: scroll;
+}
+
+.carousel__slide {
+  position: relative;
+  flex: 0 0 100%;
+  width: 100%;
+  background-color: #ffffff;
+}
+
+@media screen and (max-width: 768px) {
+  .carousel {
+    height: 800px;
+  }
+  .carousel__slide:nth-child(1) {
+    background-image: url(./images/sonny-jacket/Sonny_jacket_sewing_pattern_Mobile_Website_Banner_720x.webp);
+    background-position: center;
+    background-size: cover;
+  }
+  .carousel__slide:nth-child(2) {
+    background-image: url(./images/sonny-jacket/lining/Sonny_jacket_lining_sewing_pattern_Mobile_Website_Banner_1_720x.webp);
+    background-position: center;
+    background-size: cover;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .carousel {
+    height: 600px;
+  }
+  .carousel__slide:nth-child(1) {
+    background-image: url(./images/sonny-jacket/Sonny_jacket_sewing_pattern_Website_Banner_1080x.webp);
+    background-position: center;
+    background-size: cover;
+  }
+  .carousel__slide:nth-child(2) {
+    background-image: url(./images/sonny-jacket/lining/Sonny_lining_add--on_sewing_pattern_Website_Banner_1_1512x.webp);
+    background-position: center;
+    background-size: cover;
+  }
+}
+
+.button-with-shaddow:not(.newsletter-form) {
+  box-shadow: 5px 5px #34312e;
+  box-shadow: 5px 5px 0 0 #34312e;
+  transition: transform 0.05s, box-shadow 0.05s;
   margin-bottom: 5px;
   text-align: center;
   vertical-align: middle;
@@ -130,13 +173,31 @@ section > .black-button {
   max-width: 350px;
   max-height: 468px;
 }
-.sonny {
-  background-image: url(./images/featured-patterns/sonny/Tilly_and_Buttons_Sonny_sewing_pattern_combined_1080x.webp);
-  background-position: center;
-  background-size: cover;
+.social-media-banner {
+  height: 22px;
+  padding: 14px;
+  display: flex;
 }
-.imageBtn-container {
-  background-position: center;
-  background-size: cover;
-  width: ;
+.round-icon {
+  width: 54px;
+  height: 54px;
+  border-radius: 100%;
+  border: 2px solid;
+  border-color: #34312e;
+}
+.social-media {
+  justify-content: center;
+  align-items: center;
+}
+.icon-twitter,
+.icon-instagram,
+.icon-facebook,
+.icon-pinterest,
+.icon-tiktok,
+.icon-youtube {
+  padding: 14px;
+}
+
+.footer-spacing {
+  height: 100px;
 }
