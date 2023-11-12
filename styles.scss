@@ -74,7 +74,7 @@ header {
   }
 }
 
-nav header {
+nav {
   display: flex;
   justify-content: center;
   margin-bottom: 20px;
@@ -84,13 +84,6 @@ nav header {
 nav a {
   text-decoration: none;
   color: #34312e;
-}
-
-.footer-menu footer {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 20px;
-  gap: 25px;
 }
 
 ol,
@@ -157,14 +150,57 @@ li {
   text-align: center;
   vertical-align: middle;
   margin: 0;
-  width: auto;
-  background-color: var(--colorBody);
+  width: fit-content;
+  background-color: #ffffff;
   padding: 11px 20px 11px 20px;
   letter-spacing: 0.2rem;
   min-width: 90px;
-  border: 2px solid;
+  border: 2px solid #34312e;
+  min-width: 90px;
+  font-size: 14px;
+  padding-bottom: 14px;
+  padding-left: 22px;
+  padding-right: 22px;
+  padding-top: 14px;
 }
-
+.black-button {
+  color: #279fad;
+  margin-bottom: 5px;
+  text-align: center;
+  vertical-align: middle;
+  margin: 0;
+  width: fit-content;
+  background-color: #34312e;
+  padding: 11px 20px 11px 20px;
+  letter-spacing: 0.2rem;
+  min-width: 90px;
+  border: 2px solid #34312e;
+  min-width: 90px;
+  font-size: 14px;
+  padding-bottom: 14px;
+  padding-left: 22px;
+  padding-right: 22px;
+  padding-top: 14px;
+}
+.yellow-button {
+  color: #279fad;
+  margin-bottom: 5px;
+  text-align: center;
+  vertical-align: middle;
+  margin: 0;
+  width: fit-content;
+  background-color: #fae787;
+  padding: 11px 20px 11px 20px;
+  letter-spacing: 0.2rem;
+  min-width: 90px;
+  border: 2px solid #fae787;
+  min-width: 90px;
+  font-size: 14px;
+  padding-bottom: 14px;
+  padding-left: 22px;
+  padding-right: 22px;
+  padding-top: 14px;
+}
 .disclaimer {
   font-weight: 400;
   font-size: 1rem;
@@ -200,4 +236,31 @@ li {
 
 .footer-spacing {
   height: 100px;
+}
+
+.banner-blog,
+.video-feature {
+  background-color: #b9dfe0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.newsletter-button {
+  display: flex;
+}
+.line {
+  background-color: #34312e;
+  height: 3px;
+  width: auto;
+  margin-bottom: 3px;
+}
+
+.newsletter-banner {
+  background-color: #f2adbf;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
