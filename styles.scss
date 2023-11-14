@@ -63,6 +63,7 @@ html {
 }
 body {
   font-size: 1.8rem;
+  font-weight: 400;
 }
 
 header {
@@ -141,7 +142,9 @@ li {
     background-size: cover;
   }
 }
-
+button {
+  margin-bottom: 30px;
+}
 .button-with-shaddow:not(.newsletter-form) {
   box-shadow: 5px 5px #34312e;
   box-shadow: 5px 5px 0 0 #34312e;
@@ -232,6 +235,8 @@ li {
 .icon-tiktok,
 .icon-youtube {
   padding: 14px;
+  background-position-x: 50%;
+  background-position-y: 50%;
 }
 
 .footer-spacing {
@@ -263,4 +268,61 @@ li {
   justify-content: center;
   padding-top: 30px;
   padding-bottom: 30px;
+}
+
+.banner-workshop {
+  background-image: url(./images/Website_Banner_2_online-workshop1296x.webp);
+  background-size: cover;
+  background-position: center;
+  background-color: #f2adbf;
+  padding-top: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.text-container-workshop {
+  background-color: #ffffff;
+  opacity: 0.9;
+  width: 100%
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  margin: auto;
+  h2,
+  h5,
+  p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  h2 {
+    font-size: 2.9rem;
+    font-weight: 400;
+  }
+  h3 {
+    font-weight: 400;
+    font-size: 1.5rem;
+  }
+}
+.section-image {
+  margin: 10px;
+  background-position: center;
+  background-size: cover;
+  .image-blog {
+    background-image: url(./images/blog/samantha/Tilly_and_the_Buttons_Sonny_Jacket_fitting_01_1080x.webp);
+  }
+  .image-embroidery {
+    background-image: url(./images/blog/embroider/How-to-embroider-flowers-on-your-clothing_aa31939e-b1ae-4d4f-b4f5-81b115b2f09c_1080x.webp);
+  }
+  .image-five{
+    background-image: url(./images/blog/right-side-fabric/Five_ways_to_tell_the_right_side_of_your_fabric_-_header_1080x.webp);
+  }
+}
+h4 section{
+  font-size: 2rem;
+  font-weight: 400;
+
 }
